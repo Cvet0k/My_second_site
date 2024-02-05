@@ -30,7 +30,7 @@ a {
   padding-left: 120px;
   padding-bottom: 494px;
 }
-.header_title {
+.header__title {
   color: rgb(255, 255, 255);
   font-size: 64px;
   font-weight: 700;
@@ -40,7 +40,7 @@ a {
   max-width: 788px;
   margin-bottom: 32px;
 }
-.header_text {
+.header__text {
   color: rgb(255, 255, 255);
   font-size: 18px;
   font-weight: 700;
@@ -50,7 +50,7 @@ a {
   max-width: 481px;
   margin-bottom: 44px;
 }
-.header_button {
+.header__button {
   width: 234px;
   height: 48px;
   border-color: rgb(156, 3, 50);
@@ -65,7 +65,7 @@ a {
   padding-left: 74px;
   transition: all 1s;
 }
-.header_button:hover {
+.header__button:hover {
   border-radius: 30px;
   background: rgb(235, 68, 63);
 }
@@ -80,9 +80,9 @@ a {
   padding-top: 128px;
   padding-bottom: 128px;
 }
-.content_product {
-  width: 347px;
-  height: 268px;
+.content__product {
+  width: 379px;
+  height: 300px;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(0023);
   font-size: 24px;
@@ -96,27 +96,28 @@ a {
   align-items: flex-end;
   padding-left: 32px;
   padding-bottom: 32px;
-  transition: all 1s;
-}
-.content_product:hover {
+  transition: all 0.5s;
   box-sizing: border-box;
+  border-width: 0px;
+}
+.content__product:hover {
   border: 3px solid rgb(68, 210, 255);
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(3 1);
 }
-.content_product__img1 {
+.content__product_img1 {
   background-image: url(img/game_1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.content_product__img2 {
+.content__product_img2 {
   background-image: url(img/game_2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
-.content_product__img3 {
+.content__product_img3 {
   background-image: url(img/game_3.png);
   background-repeat: no-repeat;
   background-position: center;
