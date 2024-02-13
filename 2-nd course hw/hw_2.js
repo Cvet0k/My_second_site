@@ -36,3 +36,33 @@ let b = Number(2);
 alert(aa % b);
 
 //7
+let num = 1;
+num += 5;
+num -= 3;
+num *= 7;
+num /= 3;
+num++;
+num--;
+alert(num);
+
+//8
+let age = Number(prompt('Сколько вам лет'));
+alert(age);
+
+//9
+const user = {
+    name: String('Elizaveta'),
+    age: Number(32),
+    isAdmin: Boolean(true)
+}
+user["city Of Residence"] = true;
+user.age = 23;
+delete user["city Of Residence"];
+let info = prompt("Какую информацию хотите узнать о пользователе?");
+alert(user[info]);
+
+//10
+let imya = prompt("Как вас зовут?");
+alert(`Привет, ${imya}!`)
+
+
