@@ -6,9 +6,8 @@
    alert('Пароль введен верно');
     } else { alert('Пароль введен неправильно');
 }
-// Задача 1 (Второй вариант)
 
-let password2 = String('FreeWiFi')
-let userPassword2 = String(prompt("Введите пароль"));
+// Задача 2
 
-alert (password2 === userPassword2 ? 'Пароль введен верно' : 'Пароль введен неправильно');
+let c = Number(prompt('Введи чило в промежутке от 0 до 10'));
+alert( c > 0 && c < 10 ? 'Верно' : 'Неверно');
