@@ -78,7 +78,23 @@ switch (monthNuber2) {
 // Задача 7 
 
 let chislo = Number(prompt('Пожалуйста, введите любое число'));
-chislo.toString() === 'NaN' ? alert('Это не число, попробуй еще раз'): alert(chislo % 2 === 1 ? 'Число нечетное' : 'Число четное');
+chislo.toString() === 'NaN' ? alert('Это не число, попробуй еще раз') : alert(chislo % 2 === 1 ? 'Число нечетное' : 'Число четное');
+
+// Задача 8 и 9
+
+let clientOS = Boolean(confirm('На вашем телефоне операционная система на базе Android?'));
+let clientDeviceYear = Boolean(confirm('Ваш телефон изготовлен в  2015 году или позднее ?'));
+if (clientOS === true && clientDeviceYear === true) {
+
+alert('Установите версию приложения для Android по ссылке');
+
+} else if (clientOS === true && clientDeviceYear === false) {
+    alert('Установите облегченную версию приложения для Android по ссылке');
+} else if (clientOS === false && clientDeviceYear === true) {
+    alert('Установите версию приложения для iOS по ссылке');
+} else {
+    alert('Установите облегченную версию приложения для IOS по ссылке');
+}
 
 
 
