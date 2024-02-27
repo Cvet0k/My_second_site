@@ -2,8 +2,8 @@
 
 // Задача 1
 
-let password = String('FreeWiFi')
-let userPassword = String(prompt("Введите пароль"));
+let password = 'FreeWiFi';
+let userPassword = prompt("Введите пароль");
 if (password === userPassword) {
     alert('Пароль введен верно');
 } else {
@@ -84,13 +84,13 @@ chislo.toString() === 'NaN' ? alert('Это не число, попробуй е
 
 let clientOS = Boolean(confirm('На вашем телефоне операционная система на базе Android?'));
 let clientDeviceYear = Boolean(confirm('Ваш телефон изготовлен в  2015 году или позднее ?'));
-if (clientOS === true && clientDeviceYear === true) {
+if (clientOS && clientDeviceYear) {
 
 alert('Установите версию приложения для Android по ссылке');
 
-} else if (clientOS === true && clientDeviceYear === false) {
+} else if (clientOS && !clientDeviceYear) {
     alert('Установите облегченную версию приложения для Android по ссылке');
-} else if (clientOS === false && clientDeviceYear === true) {
+} else if (!clientOS && clientDeviceYear) {
     alert('Установите версию приложения для iOS по ссылке');
 } else {
     alert('Установите облегченную версию приложения для IOS по ссылке');
