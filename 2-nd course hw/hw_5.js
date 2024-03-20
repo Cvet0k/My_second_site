@@ -18,3 +18,17 @@ function parity(n) {
 parity(4);
 parity(5);
 parity(0);
+
+// Задача 3
+
+let square = (d) => console.log(d ** 2) ;
+  
+square(5);
+
+let square2 = (d) => { return d ** 2 } ;
+
+let s = square2(4);
+
+console.log(s);
+
+
