@@ -32,3 +32,15 @@ let s = square2(4);
 console.log(s);
 
 
+// Задача 4
+
+function age(params) {
+    let userAge = Number(prompt('Введи  свой возраст')); 
+    if (userAge >= 13 ) {
+        alert('Добро пожаловать!'); 
+    } else if (userAge > 0 && userAge < 13) {
+        alert('Привет, друг!');   
+    } else { alert('Вы ввели неправильное значение');
+    } 
+}
+age();
