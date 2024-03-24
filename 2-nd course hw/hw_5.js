@@ -34,7 +34,7 @@ console.log(s);
 
 // Задача 4
 
-function age(params) {
+function age() {
     let userAge = Number(prompt('Введи  свой возраст')); 
     if (userAge >= 13 ) {
         alert('Добро пожаловать!'); 
@@ -58,3 +58,39 @@ let checkIn = (c, f) => {
    } 
 }
 console.log(checkIn(c, f));
+
+// Задача 6
+
+let squareNum = () => {
+   let userNum = Number(prompt('Введи число'));
+    if (!Number.isNaN(userNum)) {
+        alert(`${userNum} в кубе равняется ${userNum ** 2}`)  } else {  
+            alert('Переданный параметр не является числом');   
+   } 
+}
+squareNum();
+
+// Задача 7
+
+function getArea () {
+    console.log (`Площадь круга с радиусом ${this.radius} равна ${3.14 * this.radius ** 2}`);
+}
+function getPerimeter () {
+    console.log (`Периметр окружности с радиусом ${this.radius} равен ${2 * 3.14 * this.radius}`);
+}
+
+const circler1 = {
+    radius: 10,
+    getAreaUser: getArea,
+    getPerimeterUser: getPerimeter,
+}
+const circler2 = {
+    radius: 13,
+    getAreaUser: getArea,
+    getPerimeterUser: getPerimeter,
+}
+circler1.getAreaUser();
+circler1.getPerimeterUser();
+circler2.getAreaUser();
+circler2.getPerimeterUser();
+
