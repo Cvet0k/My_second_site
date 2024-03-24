@@ -44,3 +44,17 @@ function age(params) {
     } 
 }
 age();
+
+// Задача 5
+
+let c = prompt('Введи число');
+let f = prompt('Введи число');
+
+let checkIn = (c, f) => {
+  
+    if (!Number.isNaN(Number(c)) && !Number.isNaN(Number(f))) {
+        return c * f ;  } else {  
+            alert('Одно или оба значения не являются числом');   
+   } 
+}
+console.log(checkIn(c, f));
