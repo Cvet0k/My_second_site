@@ -122,6 +122,36 @@ a {
   background-size: cover;
 }
 
+.gameOne {
+  background: rgb(0, 9, 21);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.gameOne__info {
+  width: 584px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.gameOne__title {
+  color: #FFFFFF;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+.gameOne__text {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
 @media (max-width: 500px) {
   .header {
     padding-left: 16px;
