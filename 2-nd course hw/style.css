@@ -18,9 +18,13 @@ a {
   color: white;
 }
 
+.centr {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 .header {
   padding-top: 217px;
-  padding-left: 120px;
   padding-bottom: 494px;
   background-image: url(img/background.png);
   background-repeat: no-repeat;
@@ -79,7 +83,7 @@ a {
   padding-bottom: 128px;
 }
 .content__product {
-  width: 379px;
+  width: 377px;
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(0023);
@@ -127,8 +131,10 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
+  justify-content: space-between;
+  padding-top: 234px;
+  padding-bottom: 234px;
 }
 .gameOne__info {
   width: 584px;
@@ -137,6 +143,7 @@ a {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: flex-start;
+  gap: 32px;
 }
 .gameOne__title {
   color: #FFFFFF;
