@@ -150,7 +150,7 @@ a {
    
 
     &__info {
-        width: 584px;
+        max-width: 584px;
         display: flex;
         flex-direction: column;
     flex-wrap: nowrap;
