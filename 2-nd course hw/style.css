@@ -18,9 +18,13 @@ a {
   color: white;
 }
 
+.centr {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
 .header {
   padding-top: 217px;
-  padding-left: 120px;
   padding-bottom: 494px;
   background-image: url(img/background.png);
   background-repeat: no-repeat;
@@ -79,7 +83,7 @@ a {
   padding-bottom: 128px;
 }
 .content__product {
-  width: 379px;
+  width: 377px;
   height: 300px;
   border-radius: 16px;
   background: linear-gradient(180deg, rgba(39, 1, 15, 0), rgb(0, 25, 68) 100%), url(0023);
@@ -122,10 +126,45 @@ a {
   background-size: cover;
 }
 
-@media (max-width: 500px) {
-  .header {
+.gameOne {
+  background: rgb(0, 9, 21);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 234px;
+  padding-bottom: 234px;
+}
+.gameOne__info {
+  max-width: 584px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.gameOne__title {
+  color: #FFFFFF;
+  color: rgb(255, 255, 255);
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+}
+.gameOne__text {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+@media (max-width: 600px) {
+  .centr {
     padding-left: 16px;
     padding-right: 16px;
+  }
+  .header {
     padding-top: 239px;
     padding-bottom: 238px;
     background-position: 31%;
@@ -154,5 +193,49 @@ a {
     width: 343px;
     height: 300px;
     padding-left: 14px;
+  }
+  .gameOne {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    gap: 64px;
+    padding-top: 51px;
+    padding-bottom: 85px;
+  }
+  .gameOne__info {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .gameOne__title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+  }
+  .gameOne__text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    text-align: center;
+  }
+  .gameOne__img {
+    width: 344px;
+    height: 236px;
+  }
+  .gameOne__img_centr {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 501px) and (max-width: 1350px) {
+  .gameOne {
+    display: flex;
+    gap: 64px;
   }
 }/*# sourceMappingURL=style.css.map */
