@@ -35,3 +35,14 @@ const massiv3 = [];
     massiv3.push(numMassiv1);
    } 
    console.log (massiv3);
+
+
+   // Задача 5 task
+
+   const massiv5 = [1, 1, 1];
+   for (let index = 0; index < 3; index++) {
+    massiv5.push(2);
+   }
+   console.log(massiv5);
+
+   
