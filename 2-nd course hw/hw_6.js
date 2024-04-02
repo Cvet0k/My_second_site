@@ -45,4 +45,17 @@ const massiv3 = [];
    }
    console.log(massiv5);
 
-   
+
+   // Задача 6-1 task
+
+   const massiv6 = [9, 8, 7, 'a', 6, 5];
+   massiv6.sort();
+   massiv6.pop();
+   console.log(massiv6);
+
+// Задача 6-2 task
+
+const massiv4 = [9, 8, 7, 'a', 6, 5];
+massiv4.sort();
+const filteredMassiv4 = massiv4.filter(massiv4 => massiv4 !== 'a')
+console.log(filteredMassiv4);
