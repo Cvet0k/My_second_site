@@ -23,3 +23,15 @@ const massiv2 = [1, 3, 5, 10, 20];
 
 let joinedMassiv2 = massiv2.join(' ');
 console.log(joinedMassiv2);
+
+// Задача 4 task
+
+const massiv3 = [];
+   for (let index = 0; index < 3; index++) {
+    const numMassiv1 = []
+    for (let i = 0; i < 3; i++) {
+        numMassiv1.push (1);
+    }
+    massiv3.push(numMassiv1);
+   } 
+   console.log (massiv3);
