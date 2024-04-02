@@ -16,3 +16,10 @@ for (let index = 0; index < massiv1.length; index++) {
     } 
 }
 console.log(userIndex);
+
+// Задача 3 task
+
+const massiv2 = [1, 3, 5, 10, 20];
+
+let joinedMassiv2 = massiv2.join(' ');
+console.log(joinedMassiv2);
