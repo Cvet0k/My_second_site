@@ -97,3 +97,7 @@ const massiv11 = [1, 2, 5, 3, 8, 7, 6];
 const sqrMassiv = massiv11.map(massiv11 => massiv11 ** 2);
 console.log (sqrMassiv);
 
+// Задача 12 task
+const massiv12 = ['Каждый', 'Охотник', 'Желает', 'Знать', 'Где', 'Сидит', 'Фазан'];
+const lineMassiv = massiv12.map(massiv12 => massiv12.length);
+console.log (lineMassiv);
