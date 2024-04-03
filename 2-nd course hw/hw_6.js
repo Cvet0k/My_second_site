@@ -69,3 +69,9 @@ if (foundNum) {
     
 } else {alert('Не угадал');   
 }
+
+// Задача 8 task
+
+let strong1 = 'abcdef' ;
+const transStrong1 = strong1.split('').reverse().join('');
+console.log(transStrong1);
