@@ -117,3 +117,11 @@ for (let index = 0; index < 10; index++) {
 console.log(massiv14);
 const evenMassiv = massiv14.filter(massiv14 => massiv14 % 2 === 0);
 console.log(evenMassiv);
+
+// Задача 15 task 
+const massiv15 = [];
+for (let index = 0; index < 6; index++) {
+    massiv15.push(Math.floor(Math.random() * 6));  
+}
+const arifmMassiv = massiv15.reduce((total, nuber) => total + nuber );
+console.log(`Среднее арифметическое массива [ ${massiv15} ] равно ${arifmMassiv/6}`);
