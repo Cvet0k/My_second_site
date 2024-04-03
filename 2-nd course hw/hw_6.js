@@ -81,3 +81,15 @@ console.log(transStrong1);
 const massiv9 = [[1, 2, 3],[4, 5, 6]];
 let oneMassiv9 = [...massiv9[0], ...massiv9[1]];
 console.log(oneMassiv9);
+
+// Задача 10 task
+
+const massiv10 = [1, 2, 5, 3, 8, 7, 6];
+for (let index = 0; index < massiv10.length; index++) {
+   if (index < massiv10.length - 1  ) {
+    console.log (massiv10[index] + massiv10[index + 1]); 
+   } else {console.log(massiv10[index])
+   }; 
+}
+
+// Задача 11 task
