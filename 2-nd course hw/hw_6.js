@@ -62,23 +62,24 @@ console.log(filteredMassiv4);
 // Задача 7 task
 
 const massiv7 = [9, 8, 7, 6, 5];
-numUser = Number(prompt ('Угадай число из массива'));
+numUser = Number(prompt('Угадай число из массива'));
 let foundNum = massiv7.includes(numUser);
 if (foundNum) {
     alert('Угадал')
-    
-} else {alert('Не угадал');   
+
+} else {
+    alert('Не угадал');
 }
 
 // Задача 8 task
 
-let strong1 = 'abcdef' ;
+let strong1 = 'abcdef';
 const transStrong1 = strong1.split('').reverse().join('');
 console.log(transStrong1);
 
 // Задача 9 task
 
-const massiv9 = [[1, 2, 3],[4, 5, 6]];
+const massiv9 = [[1, 2, 3], [4, 5, 6]];
 let oneMassiv9 = [...massiv9[0], ...massiv9[1]];
 console.log(oneMassiv9);
 
@@ -86,33 +87,34 @@ console.log(oneMassiv9);
 
 const massiv10 = [1, 2, 5, 3, 8, 7, 6];
 for (let index = 0; index < massiv10.length; index++) {
-   if (index < massiv10.length - 1  ) {
-    console.log (massiv10[index] + massiv10[index + 1]); 
-   } else {console.log(massiv10[index])
-   }; 
+    if (index < massiv10.length - 1) {
+        console.log(massiv10[index] + massiv10[index + 1]);
+    } else {
+        console.log(massiv10[index])
+    };
 }
 
 // Задача 11 task
 const massiv11 = [1, 2, 5, 3, 8, 7, 6];
 const sqrMassiv = massiv11.map(massiv11 => massiv11 ** 2);
-console.log (sqrMassiv);
+console.log(sqrMassiv);
 
 // Задача 12 task
 const massiv12 = ['Каждый', 'Охотник', 'Желает', 'Знать', 'Где', 'Сидит', 'Фазан'];
 const lineMassiv = massiv12.map(massiv12 => massiv12.length);
-console.log (lineMassiv);
+console.log(lineMassiv);
 
 // Задача 13 task 
 
 const massiv13 = [-7, 0, -8, 3, 5, -2, 6];
-const minusMassiv = massiv13.filter(massiv13 =>  massiv13 < 0);
-console.log (minusMassiv);
+const minusMassiv = massiv13.filter(massiv13 => massiv13 < 0);
+console.log(minusMassiv);
 
 // Задача 14 task 
 
 const massiv14 = [];
 for (let index = 0; index < 10; index++) {
-    massiv14.push(Math.floor(Math.random() * 10));  
+    massiv14.push(Math.floor(Math.random() * 10));
 }
 console.log(massiv14);
 const evenMassiv = massiv14.filter(massiv14 => massiv14 % 2 === 0);
@@ -121,7 +123,7 @@ console.log(evenMassiv);
 // Задача 15 task 
 const massiv15 = [];
 for (let index = 0; index < 6; index++) {
-    massiv15.push(Math.floor(Math.random() * 6));  
+    massiv15.push(Math.floor(Math.random() * 6));
 }
-const arifmMassiv = massiv15.reduce((total, nuber) => total + nuber );
-console.log(`Среднее арифметическое массива [ ${massiv15} ] равно ${arifmMassiv/6}`);
+const arifmMassiv = massiv15.reduce((total, nuber) => total + nuber);
+console.log(`Среднее арифметическое массива [ ${massiv15} ] равно ${arifmMassiv / 6}`);
