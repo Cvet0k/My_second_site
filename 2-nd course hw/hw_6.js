@@ -93,3 +93,7 @@ for (let index = 0; index < massiv10.length; index++) {
 }
 
 // Задача 11 task
+const massiv11 = [1, 2, 5, 3, 8, 7, 6];
+const sqrMassiv = massiv11.map(massiv11 => massiv11 ** 2);
+console.log (sqrMassiv);
+
