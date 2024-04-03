@@ -75,3 +75,9 @@ if (foundNum) {
 let strong1 = 'abcdef' ;
 const transStrong1 = strong1.split('').reverse().join('');
 console.log(transStrong1);
+
+// Задача 9 task
+
+const massiv9 = [[1, 2, 3],[4, 5, 6]];
+let oneMassiv9 = [...massiv9[0], ...massiv9[1]];
+console.log(oneMassiv9);
