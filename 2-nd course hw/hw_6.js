@@ -107,3 +107,13 @@ console.log (lineMassiv);
 const massiv13 = [-7, 0, -8, 3, 5, -2, 6];
 const minusMassiv = massiv13.filter(massiv13 =>  massiv13 < 0);
 console.log (minusMassiv);
+
+// Задача 14 task 
+
+const massiv14 = [];
+for (let index = 0; index < 10; index++) {
+    massiv14.push(Math.floor(Math.random() * 10));  
+}
+console.log(massiv14);
+const evenMassiv = massiv14.filter(massiv14 => massiv14 % 2 === 0);
+console.log(evenMassiv);
