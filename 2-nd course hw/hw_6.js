@@ -101,3 +101,9 @@ console.log (sqrMassiv);
 const massiv12 = ['Каждый', 'Охотник', 'Желает', 'Знать', 'Где', 'Сидит', 'Фазан'];
 const lineMassiv = massiv12.map(massiv12 => massiv12.length);
 console.log (lineMassiv);
+
+// Задача 13 task 
+
+const massiv13 = [-7, 0, -8, 3, 5, -2, 6];
+const minusMassiv = massiv13.filter(massiv13 =>  massiv13 < 0);
+console.log (minusMassiv);
