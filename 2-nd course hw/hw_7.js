@@ -11,3 +11,7 @@ let line2 = 'СолНце';
 const NewLineMassiv2 = lineMassiv2.filter(lines => lines.toLowerCase().startsWith(line2.toLowerCase()) ) ;
 console.log(NewLineMassiv2);
 
+// Задача 3 task
+
+let number = 32.5884;
+console.log(Math.floor(number), Math.ceil(number), Math.round(number) );
