@@ -73,8 +73,14 @@ function rusDateTime(myDate){
         "Пятница", "Суббота"];
     const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
         "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+    let minuta = myDate.getMinutes();
+    let minutaUser;
+    minuta < 10 ? minutaUser = '0' + myDate.getMinutes(): minutaUser =  minuta;
+    let sekunda = myDate.getSeconds();
+    let sekundaUser;
+    sekunda < 10 ? sekundaUser = '0' + myDate.getSeconds(): sekundaUser =  sekunda;
     let rusDate = ['Дата:', myDate.getDate(), months[myDate.getMonth()], myDate.getFullYear(),'— это ', days[myDate.getDay()]];
-    let rusTime = ['Время', myDate.getHours(), myDate.getMinutes(), myDate.getSeconds()];
+    let rusTime = ['Время', myDate.getHours(), minutaUser, sekundaUser];
     let rusDateStr = rusDate.join(' ');
     let rusTimeStr = rusTime.join(':');
     console.log(rusDateStr);
