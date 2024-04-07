@@ -57,3 +57,9 @@ randomNum(n7,k7);
 let myDate = new Date();
 console.log(myDate);
 
+// Задача 9 task
+
+let currentDate = new Date();
+let day73 = 73 * 24 * 60 * 60 * 1000 ;
+let dateForward73 = new Date(+currentDate + day73);
+console.log(dateForward73);
