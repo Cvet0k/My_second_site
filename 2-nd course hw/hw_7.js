@@ -33,3 +33,22 @@ for (let index = 0; index < Math.round(n * 0.5); index++) {
     massiv6.push(Math.floor(Math.random() * n));
 }
 console.log(massiv6);
+
+// Задача 7 task
+
+    let n7 = Math.floor(Math.random() * 100);
+    let k7 = Math.floor(Math.random() * 100);
+
+function randomNum (n7,k7) {
+    let max;
+    let min;
+    n7 > k7 ?  max = n7 : max = k7;
+    n7 < k7 ?  min = n7 : min = k7;
+    if (n7 === k7)  {
+        max = n7;
+         min = k7 }
+    console.log (`Диапазон ${max}-${min}`);
+    console.log(Math.floor(Math.random() * (max - min) + min)); 
+}
+randomNum(n7,k7);
+
