@@ -52,3 +52,8 @@ function randomNum (n7,k7) {
 }
 randomNum(n7,k7);
 
+// Задача 8 task
+
+let myDate = new Date();
+console.log(myDate);
+
