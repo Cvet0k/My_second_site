@@ -19,3 +19,7 @@ console.log(Math.floor(number), Math.ceil(number), Math.round(number) );
 // Задача 4 task
 
 console.log(Math.min(52, 53, 49, 77, 21, 32) , Math.max(52, 53, 49, 77, 21, 32));
+
+// Задача 5 task
+
+console.log(Math.floor(Math.random() * 10));
