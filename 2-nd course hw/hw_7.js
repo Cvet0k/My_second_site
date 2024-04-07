@@ -23,3 +23,13 @@ console.log(Math.min(52, 53, 49, 77, 21, 32) , Math.max(52, 53, 49, 77, 21, 32))
 // Задача 5 task
 
 console.log(Math.floor(Math.random() * 10));
+
+// Задача 6 task
+
+let n = Math.floor(Math.random() * 15);
+console.log(n);
+const massiv6 = [];
+for (let index = 0; index < Math.round(n * 0.5); index++) {
+    massiv6.push(Math.floor(Math.random() * n));
+}
+console.log(massiv6);
