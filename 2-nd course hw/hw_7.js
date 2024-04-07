@@ -15,3 +15,7 @@ console.log(NewLineMassiv2);
 
 let number = 32.5884;
 console.log(Math.floor(number), Math.ceil(number), Math.round(number) );
+
+// Задача 4 task
+
+console.log(Math.min(52, 53, 49, 77, 21, 32) , Math.max(52, 53, 49, 77, 21, 32));
