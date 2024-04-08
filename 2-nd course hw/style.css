@@ -205,6 +205,9 @@ a {
     padding-top: 51px;
     padding-bottom: 85px;
   }
+  .gameOne_mobile {
+    flex-direction: column-reverse;
+  }
   .gameOne__info {
     display: flex;
     flex-wrap: nowrap;
@@ -237,5 +240,8 @@ a {
   .gameOne {
     display: flex;
     gap: 64px;
+  }
+  .gameOne_mobile {
+    flex-direction: column-reverse;
   }
 }/*# sourceMappingURL=style.css.map */
