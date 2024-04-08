@@ -159,7 +159,7 @@ a {
   line-height: 32px;
 }
 
-@media (max-width: 600px) {
+@media (min-width: 374px) and (max-width: 768px) {
   .centr {
     padding-left: 16px;
     padding-right: 16px;
