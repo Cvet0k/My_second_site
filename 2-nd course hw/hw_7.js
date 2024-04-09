@@ -8,8 +8,8 @@ console.log(lineUp);
 
 const lineMassiv2 = ['Солнце светит', 'Туча закрыла солнце', 'Солнечный свет', 'Белый лед', 'Солнце и лед'];
 let line2 = 'СолНце';
-const NewLineMassiv2 = lineMassiv2.filter(lines => lines.toLowerCase().startsWith(line2.toLowerCase()));
-console.log(NewLineMassiv2);
+const newLineMassiv2 = lineMassiv2.filter(lines => lines.toLowerCase().startsWith(line2.toLowerCase()));
+console.log(newLineMassiv2);
 
 // Задача 3 task
 
@@ -22,17 +22,19 @@ console.log(Math.min(52, 53, 49, 77, 21, 32), Math.max(52, 53, 49, 77, 21, 32));
 
 // Задача 5 task
 
-console.log(Math.floor(Math.random() * 10));
+console.log(Math.floor(Math.random() * (10 - 1) + 1));
 
 // Задача 6 task
-
 let n = Math.floor(Math.random() * 15);
+function randomMassiv(n)  {
 console.log(n);
 const massiv6 = [];
-for (let index = 0; index < Math.round(n * 0.5); index++) {
+for (let index = 0; index < Math.floor(n * 0.5); index++) {
     massiv6.push(Math.floor(Math.random() * n));
 }
 console.log(massiv6);
+}
+randomMassiv(n);
 
 // Задача 7 task
 
@@ -74,10 +76,10 @@ console.log( currentDate2);
 
 
 function rusDateTime(myDate){
-    const days = ["Воскресенье", "Понедельник", "Вторник", "Среда", "Четверг",
+    const days = ["воскресенье", "понедельник", "вторник", "среда", "четверг",
         "Пятница", "Суббота"];
-    const months = ["Январь", "Февраль", "Март", "Апрель", "Май", "Июнь",
-        "Июль", "Август", "Сентябрь", "Октябрь", "Ноябрь", "Декабрь"];
+    const months = ["Января", "Февраля", "Марта", "Апреля", "Мая", "Июня",
+        "Июля", "Августа", "Сентября", "Октября", "Ноября", "Декабря"];
     let minuta = myDate.getMinutes();
     let minutaUser;
     minuta < 10 ? minutaUser = '0' + myDate.getMinutes(): minutaUser =  minuta;
