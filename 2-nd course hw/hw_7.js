@@ -21,9 +21,10 @@ console.log(Math.floor(number), Math.ceil(number), Math.round(number));
 console.log(Math.min(52, 53, 49, 77, 21, 32), Math.max(52, 53, 49, 77, 21, 32));
 
 // Задача 5 task
-
+const randomNum5 = () => {
 console.log(Math.floor(Math.random() * (10 - 1) + 1));
-
+}
+randomNum5();
 // Задача 6 task
 let n = Math.floor(Math.random() * 15);
 function randomMassiv(n)  {
