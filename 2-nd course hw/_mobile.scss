@@ -1,4 +1,4 @@
-@media (max-width: 600px) {
+@media (min-width: 374px) and (max-width: 768px) {
 
     .centr {
         padding-left: 16px;
@@ -54,6 +54,10 @@
         padding-top: 51px;
         padding-bottom: 85px;
 
+        &_mobile {
+            flex-direction: column-reverse;
+        }
+
         &__info {
             display: flex;
             flex-wrap: nowrap;
@@ -95,6 +99,10 @@
     .gameOne {
         display: flex;
         gap: 64px;
+
+        &_mobile {
+            flex-direction: column-reverse;
+        }
 
 }
 }

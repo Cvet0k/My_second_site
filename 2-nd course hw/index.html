@@ -26,10 +26,10 @@
 
         <div>
 
-            <a class=" content__product  content__product_img1 " href="#"> Игра 1</a>
+            <a class=" content__product  content__product_img1 " href="#game1"> Игра 1</a>
         </div>
         <div>
-            <a class="content__product content__product_img2 " href="#">Игра 2</a>
+            <a class="content__product content__product_img2 " href="#game2">Игра 2</a>
         </div>
         <div>
             <a class="content__product content__product_img3 " href="#">Игра 3</a>
@@ -38,7 +38,7 @@
     </div>
     <div class="gameOne centr">
         <div class="gameOne__info">
-            <h2 class="gameOne__title">Вермена года!</h2>
+            <h2 id = 'game1' class="gameOne__title">Вермена года!</h2>
             <p class="gameOne__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
             <button class="header__button gameOne__button" onclick="gameMonth ()">Играть!</button>
         </div>
@@ -46,8 +46,21 @@
             <img class="gameOne__img" src="img/controller_2.svg" alt="game one">
         </div>
     </div>
+</div>
+<div class="gameOne gameOne_mobile centr">
+    <div class="gameOne__img_centr">
+        <img class="gameOne__img" src="img/controller_1.svg" alt="game one">
+    </div>
+    <div class="gameOne__info">
+        <h2 id = 'game2' class="gameOne__title">Запомни слова </h2>
+        <p class="gameOne__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо запомнить.</p>
+        <button class="header__button gameOne__button" onclick="gameWords ()">Играть!</button>
+    </div>
+   
+</div>
 
     <script src="gameOne.js"></script>
+    <script src="gameTow.js"></script>
 
     <!-- Запуск домашней работы 2.2 -->
     <!--<script src="hw_2.js"></script> -->
@@ -57,7 +70,9 @@
    <!-- <script src="hw_4.js"></script> -->
     <!-- Запуск домашней работы 2.5 -->
   <!-- <script src="hw_5.js"></script>  -->
-  <script src="hw_6.js"></script>
+  <!--<script src="hw_6.js"></script> -->
+  <script src="hw_7.js"></script>
+
 </body>
 
 </html>
