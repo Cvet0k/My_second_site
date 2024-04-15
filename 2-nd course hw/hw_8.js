@@ -46,4 +46,7 @@ const people2 = [
 
 console.log(filter(people2, isMale));
 
+// Task 3
+let timer3sec = setInterval(() => console.log(new Date()), 3000);
+setTimeout(() => { clearInterval(timer3sec); console.log('30 секунд прошло'); }, 30000);
 
